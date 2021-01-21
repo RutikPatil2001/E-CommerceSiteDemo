@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    padding: 0%;
+
+}
+img{
+
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 90%;
+}
+.box h1{
+    padding-top: 5%;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+.box a{
+    color: blanchedalmond;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+}
+div.transbox{
+    background-color: black;
+    height: 315px;
+    border-radius: 20px;
+    opacity: 85%;
+}
+.box{
+    /* padding: 40px */
+    width: 440px;
+    /* height: 300px; */
+    top: 50%; 
+    left: 50%;
+    position : absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* background-color: black; */
+
+    /* opacity: 0.5%; */
+}
+.box input[type ="text"],.box input[type ="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    color: wheat;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+.box input[type ="text"]:focus,.box input[type ="password"]:focus{
+    width: 280px;
+    border-color: crimson;
+}
+.box input[type ="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 9px 35px;
+    width: 100px;
+    outline: none;
+    color: wheat;
+    transition: 0.25s;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.box input[type ="submit"]:hover{
+    background: cyan;
+    /* background: crimson; */
+    color: black;
+ 
+}
+
